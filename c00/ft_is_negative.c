@@ -5,7 +5,7 @@ void ft_putchar(char c)
     write(1, &c, 1);
 }
 
-void ft_print_numbers(void)
+void ft_is_negative(void)
 {
     char x = '9';
     while(x >= '0')
@@ -17,5 +17,5 @@ void ft_print_numbers(void)
 
 int main(void)
 {
-    ft_print_numbers();
+    ft_is_negative();
 }
