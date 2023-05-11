@@ -29,6 +29,7 @@ int main(void)
 	nbr1 = &nbr2;
 	nbr = &nbr1;
 	ft_ultimate_ft(nbr);
-	printf("%d", n);	
-	return 0;
+	printf("%d", n);
+
+	return (0);
 }

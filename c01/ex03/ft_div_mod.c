@@ -21,4 +21,6 @@ int	main(void)
 	ft_div_mod(a, b, &x, &y);
 	printf("\nThe division of a and b is: %d\n", x);
 	printf("\nThe modulo of a and b is: %d\n\n", y);
+
+    return(0);
 }

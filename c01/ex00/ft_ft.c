@@ -13,4 +13,6 @@ int main(void)
     nbr = &n;
     ft_ft(nbr);
     printf("%d", n);
+
+    return(0);
 }
